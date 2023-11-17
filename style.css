@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+
 }
 .clock{
     font-family: Arial, Helvetica, sans-serif;
@@ -21,8 +22,9 @@ body{
 }
 .container h1{
     text-align: center;
-    color: #fb8500;
+    color: #023e8a;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    top: 120px;
+    top: 110px;
 }
